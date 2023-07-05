@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">Turistiando2</string>
-    <string name="resenahoteles">Considerando que la libertad, la justicia y la paz en el mundo tienen por base el reconocimiento de la dignidad intrinseca y de los derechos iguales e inalienables de todos los miembros de la familia humana;
-
-Considerando que el desconocimiento y el menosprecio de los derechos humanos han originado actos de barbarie ultrajantes para la conciencia de la humanidad, y que se ha proclamado, como la aspiracion mas elevada del hombre, el advenimiento de un mundo en que los seres humanos, liberados del temor y de la miseria, disfruten de la libertad de palabra y de la libertad de creencias</string>
+    <string name="resenahoteles">
+    Podras encontraras  aqui  lugares sumamente comodos para disfrutar  placidamente de tus estadia en este hermoso pueblo.
+    </string>
+    <string name="resenarestaurantes">
+        Se testigo de la increible gastronomia que tenemos para ofrecer comiendo en restaurantes de todo tipo y con una increible variedad
+    </string>
+    <string name="sitiosturisticos">
+        Descubre la historia y la cultura  del pueblo por medio de sus lugares y edificaciones  que tienen mas para ofrecer de lo que puedas imaginar
+    </string>
+    <string name="opcion1">
+        Ingles
+    </string>
+    <string name="opcion2">
+        Español
+    </string>
+    <string name="opcion3">
+        Italiano
+    </string>
+    <string name="opcion4">
+        Acerca de
+    </string>
 </resources>
