@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="@color/darkgray"
     tools:context=".Home">
     <ImageView
         android:id="@+id/logo"
-        android:src="@drawable/pueblo"
+        android:src="@drawable/campo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_bias="0.1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         />
     <TextView
         android:id="@+id/text"
@@ -32,7 +32,6 @@
         />
     <Button
         android:id="@+id/buttonhoteles"
-        android:background="@color/blanchedalmond"
         android:text="hoteles"
         android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"
@@ -45,7 +44,6 @@
         />
     <Button
         android:id="@+id/buttonrestaurantes"
-        android:background="@color/blanchedalmond"
         android:text="restaurantes"
         android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"
@@ -58,7 +56,7 @@
         />
     <Button
         android:id="@+id/buttonlugares"
-        android:background="@color/blanchedalmond"
+
         android:text="sitios"
         android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"

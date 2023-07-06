@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         Timer tiempo=new Timer();
-        tiempo.schedule(inicio,10000);
+        tiempo.schedule(inicio,80000);
     }
 }
