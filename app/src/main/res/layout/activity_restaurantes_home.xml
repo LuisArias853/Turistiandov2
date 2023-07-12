@@ -27,17 +27,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.02"
         />
-    <TextView
-        app:layout_constraintTop_toBottomOf="@id/restaurantelogo"
-        android:text="RESTAURANTES"
-        android:textStyle="bold"
-        android:layout_width="110dp"
-        android:layout_height="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.02"
-        />
+
 
 
     <ImageView
@@ -68,7 +58,7 @@
     <TextView
         android:id="@+id/descripcion"
         android:layout_width="201dp"
-        android:layout_height="216dp"
+        android:layout_height="100dp"
         android:text="@string/resenarestaurantes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

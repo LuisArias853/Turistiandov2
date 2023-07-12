@@ -7,67 +7,63 @@
     tools:context=".HotelesHome">
 
     <ImageView
-        android:id="@+id/hotellogo"
-        android:layout_width="307dp"
-        android:layout_height="256dp"
+        android:id="@+id/restaurantelogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/hotel2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/restaurantelogo"
+        android:text="HOTELES"
+        android:textStyle="bold"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        />
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="290dp"
+        android:layout_height="255dp"
         android:src="@drawable/hotel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/hoteles"
-        app:layout_constraintVertical_bias="0" />
+        app:layout_constraintTop_toBottomOf="@id/descripcion"
+        app:layout_constraintVertical_bias="0.2" />
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/hotel2"
-        app:layout_constraintBottom_toTopOf="@id/hoteles"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTop="parent" />
-
-
-    <TextView
-            android:id="@+id/hoteles"
-            android:textStyle="bold"
-        android:text="HOTELES"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.13"
-        />
     <TextView
         android:id="@+id/descripcion"
+        android:layout_width="201dp"
+        android:layout_height="100dp"
         android:text="@string/resenahoteles"
-        android:layout_width="300dp"
-        android:layout_height="90dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/hotellogo"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/restaurantelogo"
+        app:layout_constraintVertical_bias="0.2" />
+
     <Button
         android:id="@+id/vermas"
-        android:text="ver más"
-        android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/descripcion"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="ver más"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        />
-
-
-
-
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img1"
+        app:layout_constraintVertical_bias="0.2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
