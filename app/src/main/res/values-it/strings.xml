@@ -20,4 +20,16 @@
     <string name="opcion4">
         Chi siamo
     </string>
+    <string name="hotel">
+        Alberghi
+    </string>
+    <string name="restaurantes">
+       ristoranti
+    </string>
+    <string name="lugares">
+        siti
+    </string>
+    <string name="vermas">
+    Vedi altro
+    </string>
 </resources>

@@ -32,7 +32,7 @@
         />
     <Button
         android:id="@+id/buttonhoteles"
-        android:text="hoteles"
+        android:text="@string/hotel"
         android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         />
     <Button
         android:id="@+id/buttonrestaurantes"
-        android:text="restaurantes"
+        android:text="@string/restaurantes"
         android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         />
     <Button
         android:id="@+id/buttonlugares"
-        android:text="sitios"
+        android:text="@string/lugares"
         android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
