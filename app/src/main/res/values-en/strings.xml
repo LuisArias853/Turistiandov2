@@ -36,7 +36,18 @@
     Welcome
     </string>
     <string name="midescripcion">
-
 Young Junior software development student with skills for the creative development of pages and programs for use on both mobile and web
+    </string>
+    <string name="contacto">
+    Contact :
+    </string>
+    <string name="rango">
+    Price range :
+    </string>
+    <string name="telefonos">
+    CellPhones :
+    </string>
+    <string name="plato">
+    Recommended dish: Traditional seafood
     </string>
 </resources>

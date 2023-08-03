@@ -36,7 +36,18 @@
     Benvenuta
     </string>
     <string name="midescripcion">
-
 Giovane studente Junior di sviluppo software con competenze per lo sviluppo creativo di pagine e programmi per la fruizione sia su mobile che web
+    </string>
+    <string name="contacto">
+    Contatto :
+    </string>
+    <string name="rango">
+    Fascia di prezzo :
+    </string>
+    <string name="telefonos">
+    Telefonis :
+    </string>
+    <string name="plato">
+    Piatto consigliato: Pesce tradizionale
     </string>
 </resources>

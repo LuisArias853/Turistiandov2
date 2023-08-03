@@ -33,11 +33,24 @@
     <string name="vermas">
         Ver mas
     </string>
-<string name="bienvenido">
+    <string name="bienvenido">
     Bienvenido
     </string>
     <string name="midescripcion">
     Joven estudiante de desarrollo de software Junior con habilidades para el desarrollo creativo de paginas y programas para su uso tanto en moviles y web
     </string>
+    <string name="contacto">
+    Contacto :
+    </string>
+    <string name="rango">
+    Rango de precios :
+    </string>
+    <string name="telefonos">
+    Telefonos :
+    </string>
+    <string name="plato">
+    Plato recomendado : Mariscos tradicionales
+    </string>
+
 
 </resources>
