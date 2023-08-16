@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@id/imgrestaurante"
         app:layout_constraintVertical_bias="0" />
     <TextView
-        android:id="@+id/precios"
+        android:id="@+id/preciosRestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/imgrestaurante"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0.05"/>
     <TextView
-        android:id="@+id/telefono"
+        android:id="@+id/contactolistaRestaurantes"
         android:layout_width="144dp"
         android:layout_height="37dp"
         android:text="@string/telefonos"
@@ -82,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.05"/>
 
     <TextView
-        android:id="@+id/plato"
+        android:id="@+id/platoRestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/telefono"

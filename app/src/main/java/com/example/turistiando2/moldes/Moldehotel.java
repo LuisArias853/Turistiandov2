@@ -1,6 +1,7 @@
 package com.example.turistiando2.moldes;
 
 public class Moldehotel {
+
     private String nombre;
     private String precio;
     private String telefono;
