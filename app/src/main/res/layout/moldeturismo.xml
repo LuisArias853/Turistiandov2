@@ -35,7 +35,7 @@
         />
 
     <TextView
-        android:id="@+id/contacto"
+        android:id="@+id/contactositios"
         android:layout_width="144dp"
         android:layout_height="37dp"
         android:text="@string/contacto"
@@ -47,12 +47,12 @@
         app:layout_constraintTop_toBottomOf="@id/imgsitios"
         app:layout_constraintVertical_bias="0.1" />
     <TextView
-        android:id="@+id/nombre"
+        android:id="@+id/nombrepersonastios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/imgsitios"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/contacto"
+        app:layout_constraintStart_toEndOf="@id/contactositios"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Juan Camilo Uribe"
         android:textSize="15dp"
@@ -68,13 +68,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/contacto"
+        app:layout_constraintTop_toBottomOf="@id/contactositios"
         app:layout_constraintVertical_bias="0" />
     <TextView
         android:id="@+id/numeros"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/contacto"
+        app:layout_constraintTop_toBottomOf="@id/contactositios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/telefono"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +84,7 @@
         app:layout_constraintHorizontal_bias="0.05"/>
 
     <TextView
-        android:id="@+id/plato"
+        android:id="@+id/preciositios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/telefono"
