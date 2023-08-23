@@ -16,6 +16,8 @@ public class RestaurantesHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurantes_home);
 
+        restaurantevermas=findViewById(R.id.vermasrestaurantes);
+
         restaurantevermas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
