@@ -17,7 +17,6 @@ public class HotelesHome extends AppCompatActivity {
         setContentView(R.layout.activity_hoteles_home);
         hotelvermas=findViewById(R.id.hotelvermas);
 
-
         hotelvermas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

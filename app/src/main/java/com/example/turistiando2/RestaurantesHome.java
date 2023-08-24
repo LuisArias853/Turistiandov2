@@ -7,24 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class RestaurantesHome extends AppCompatActivity {
 
-    Button restaurantevermas;
+    public class RestaurantesHome extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurantes_home);
+        Button Restaurantesvermas;
 
-        restaurantevermas=findViewById(R.id.vermasrestaurantes);
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_restaurantes_home);
+            Restaurantesvermas=findViewById(R.id.vermasrestaurantes);
 
-        restaurantevermas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(RestaurantesHome.this,listaRestaurantes.class);
-                startActivity(intent);
-            }
-        });
-
+            Restaurantesvermas.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(com.example.turistiando2.RestaurantesHome.this,listaRestaurantes.class);
+                    startActivity(intent);
+                }
+            });
+        }
     }
-}

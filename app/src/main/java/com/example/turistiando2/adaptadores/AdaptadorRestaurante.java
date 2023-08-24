@@ -34,7 +34,7 @@ public class AdaptadorRestaurante extends RecyclerView.Adapter<AdaptadorRestaura
     public AdaptadorRestaurante.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         //Esta porcion de codigo permite crear n copias del molde grafico
-        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.moldeturismo,null,false);
+        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.molderestaurante,null,false);
         return new viewHolder(vista);
     }
 
