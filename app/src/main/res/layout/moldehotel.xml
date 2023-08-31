@@ -1,71 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+<androidx.constraintlayout.widget.ConstraintLayout
 
-    <ImageView
-        android:id="@+id/fotolistahotel"
-        android:layout_width="400dp"
-        android:layout_height="200dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/hotel1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0" />
-    <TextView
-        android:id="@+id/nombrehotel1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/fotolistahotel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="Cannua Lodge"
-        app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        />
-    <TextView
-        android:id="@+id/preciohotel1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/nombrehotel1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="60.000 COP"
-        app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintHorizontal_bias="0.05"
-        />
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
-    <TextView
-        android:id="@+id/telefonolistahotel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contacto: 3225032357"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/preciohotel1"
-        app:layout_constraintVertical_bias="0.05"
-        android:layout_marginEnd="5dp"/>
-    <TextView
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/telefonolistahotel"
-        app:layout_constraintVertical_bias="0.05"
-        android:layout_marginEnd="5dp"/>
+<ImageView
+android:id="@+id/fotolistahotel"
+android:layout_width="400dp"
+android:layout_height="200dp"
+android:scaleType="fitXY"
+android:src="@drawable/hotel1"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0" />
+<TextView
+android:id="@+id/nombrehotel1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:layout_constraintTop_toBottomOf="@id/fotolistahotel"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+android:text="Cannua Lodge"
+app:layout_constraintVertical_bias="0.05"
+app:layout_constraintHorizontal_bias="0.5"
+android:textSize="20dp"
+android:textStyle="bold"
+    />
+<TextView
+android:id="@+id/preciohotel1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:layout_constraintTop_toBottomOf="@id/nombrehotel1"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+android:text="60.000 COP"
+app:layout_constraintVertical_bias="0.05"
+app:layout_constraintHorizontal_bias="0.05"
+    />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<TextView
+android:id="@+id/telefonolistahotel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Contacto: 3225032357"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.068"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/preciohotel1"
+app:layout_constraintVertical_bias="0.05"
+android:layout_marginEnd="5dp"/>
+<TextView
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.068"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/telefonolistahotel"
+app:layout_constraintVertical_bias="0.05"
+android:layout_marginEnd="5dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
