@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo1"
     tools:context=".LugaresHome">
+
     <ImageView
         android:id="@+id/restaurantelogo"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
         android:src="@drawable/lugar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
