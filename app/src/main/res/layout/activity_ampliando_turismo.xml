@@ -24,15 +24,27 @@
 
     <ImageView
         android:id="@+id/imgampliandositios"
-        android:layout_width="404dp"
-        android:layout_height="256dp"
+        android:layout_width="171dp"
+        android:layout_height="181dp"
         android:src="@drawable/lugarlista1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        />
+        app:layout_constraintVertical_bias="0.218" />
+
+    <ImageView
+        android:id="@+id/imgampliandositios2"
+        android:layout_width="172dp"
+        android:layout_height="163dp"
+        android:src="@drawable/lugarlista1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
 
     <TextView
         android:id="@+id/precioampliandositios"
@@ -62,16 +74,29 @@
 
     <TextView
         android:id="@+id/loremampliandositios"
-        android:layout_width="350dp"
-        android:layout_height="168dp"
+        android:layout_width="354dp"
+        android:layout_height="107dp"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet justo hendrerit massa consequat ultricies a sit amet ligula. Vivamus a metus at leo lobortis aliquam at et nisi. Aliquam pharetra ligula eget odio faucibus luctus. Praesent luctus augue ut urna pretium, a congue nisi vehicula. In placerat, massa ut bibendum convallis, lectus ipsum molestie ante, ac luctus tortor enim et magna."
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/telefonoampliandositios"
-        app:layout_constraintVertical_bias="0.1"
-        android:textColor="@color/white"/>
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/calificacionampliandoturismo"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:text="Calificacion = 1/5"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telefonoampliandositios"
+        app:layout_constraintVertical_bias="0.7" />
 
 
     <Button
@@ -86,6 +111,6 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loremampliandositios"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

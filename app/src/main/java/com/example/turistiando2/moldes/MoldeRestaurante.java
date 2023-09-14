@@ -6,18 +6,49 @@ public class MoldeRestaurante implements Serializable {
     private String nombre;
     private String precio;
     private String telefono;
+    private String descrpcion;
+    private String calificacion;
     private String plato;
     private Integer foto;
+    private Integer foto2;
+
 
     public MoldeRestaurante() {
     }
 
-    public MoldeRestaurante(String nombre, String precio, String telefono, String plato, Integer foto) {
+    public MoldeRestaurante(String nombre, String precio, String telefono, String descrpcion, String calificacion, String plato, Integer foto, Integer foto2) {
         this.nombre = nombre;
         this.precio = precio;
         this.telefono = telefono;
+        this.descrpcion = descrpcion;
+        this.calificacion = calificacion;
         this.plato = plato;
         this.foto = foto;
+        this.foto2 = foto2;
+    }
+
+    public String getCalificacion() {
+        return calificacion;
+    }
+
+    public void setCalificacion(String calificacion) {
+        this.calificacion = calificacion;
+    }
+
+    public String getDescrpcion() {
+        return descrpcion;
+    }
+
+    public void setDescrpcion(String descrpcion) {
+        this.descrpcion = descrpcion;
+    }
+
+    public Integer getFoto2() {
+        return foto2;
+    }
+
+    public void setFoto2(Integer foto2) {
+        this.foto2 = foto2;
     }
 
     public String getNombre() {
@@ -59,4 +90,5 @@ public class MoldeRestaurante implements Serializable {
     public void setFoto(Integer foto) {
         this.foto = foto;
     }
+
 }

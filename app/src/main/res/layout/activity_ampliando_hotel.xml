@@ -24,8 +24,8 @@
 
     <ImageView
         android:id="@+id/imgampliandohotel"
-        android:layout_width="181dp"
-        android:layout_height="197dp"
+        android:layout_width="165dp"
+        android:layout_height="163dp"
         android:src="@drawable/hotellista4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,15 +36,15 @@
 
     <ImageView
         android:id="@+id/imgampliandohotel2"
-        android:layout_width="202dp"
-        android:layout_height="189dp"
+        android:layout_width="176dp"
+        android:layout_height="146dp"
         android:src="@drawable/compl1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintHorizontal_bias="0.913"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.21" />
 
     <TextView
         android:id="@+id/precioampliandohotel"
@@ -74,16 +74,28 @@
 
     <TextView
         android:id="@+id/loremampliandohotel"
-        android:layout_width="350dp"
-        android:layout_height="168dp"
+        android:layout_width="349dp"
+        android:layout_height="103dp"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet justo hendrerit massa consequat ultricies a sit amet ligula. Vivamus a metus at leo lobortis aliquam at et nisi. Aliquam pharetra ligula eget odio faucibus luctus. Praesent luctus augue ut urna pretium, a congue nisi vehicula. In placerat, massa ut bibendum convallis, lectus ipsum molestie ante, ac luctus tortor enim et magna."
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/telefonoampliandohotel"
-        app:layout_constraintVertical_bias="0.1"
-        android:textColor="@color/white"/>
+        app:layout_constraintVertical_bias="0.1" />
+    <TextView
+        android:id="@+id/calificacionampliandohotel"
+        android:layout_width="354dp"
+        android:layout_height="59dp"
+        android:text="Calificacion = 1/5"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telefonoampliandohotel"
+        app:layout_constraintVertical_bias="0.7" />
 
 
     <Button
@@ -98,7 +110,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loremampliandohotel"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.8" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

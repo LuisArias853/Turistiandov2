@@ -28,11 +28,11 @@ public class listaRestaurantes extends AppCompatActivity {
         recyclerView.setAdapter(adaptadorRestaurante);
     }
     public void llenarListaConDactos(){
-        listaRestaurantes.add(new MoldeRestaurante("Restaurante Con tradicion", "12000 COP","32253167897","Arepas de queso", R.drawable.comida1));
-        listaRestaurantes.add(new MoldeRestaurante("Restaurante Doña Gloria", "10000 COP","32253167897","Arepas de Mote",R.drawable.comida2));
-        listaRestaurantes.add(new MoldeRestaurante("Restaurante Antioqueño de corazón", "19000 COP","32253167897","Entrada Familiar", R.drawable.comida3));
-        listaRestaurantes.add(new MoldeRestaurante("Restaurante El molino", "6000 COP","32253167897","Empanadas",R.drawable.comida4));
-        listaRestaurantes.add(new MoldeRestaurante("Restaurante El Asadero", "350000 COP","32253167897","Costillas BBQ",R.drawable.comida5));
+        listaRestaurantes.add(new MoldeRestaurante("Restaurante Con tradicion", "12000 COP","32253167897"," Este restaurante tiene las mejores Arepas de queso","Calificacion = 3.5/5", "Arepas de queso",R.drawable.comida1,R.drawable.comple6));
+        listaRestaurantes.add(new MoldeRestaurante("Restaurante Doña Gloria", "10000 COP","32253167897","Este restaurante se destaca por Arepas de Mote","Calificacion = 1/5","Arepas de Mote",R.drawable.comida2,R.drawable.comple7));
+        listaRestaurantes.add(new MoldeRestaurante("Restaurante Antioqueño de corazón", "19000 COP","32253167897"," Este restaurante es famoso por su Entrada Familiar","Calificacion = 5/5","Entrada Familiar", R.drawable.comida3,R.drawable.comple8));
+        listaRestaurantes.add(new MoldeRestaurante("Restaurante El molino", "6000 COP","32253167897","Este restaurante tiene como pronipal sus Empanadas","Calificacion = 5/5","Empanadas",R.drawable.comida4,R.drawable.comple6));
+        listaRestaurantes.add(new MoldeRestaurante("Restaurante El Asadero", "350000 COP","32253167897","Aquí encontraras delicias como  estás Costillas BBQ","Calificacion = 3.5/5","Costillas BBQ",R.drawable.comida5,R.drawable.comple8));
     }
 
     }

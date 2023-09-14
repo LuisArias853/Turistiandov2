@@ -25,10 +25,10 @@ public class ListaHoteles extends AppCompatActivity {
         recyclerView.setAdapter(adaptadorHoteles);
     }
     public void llenarListaConDactos(){
-        listaHoteles.add(new Moldehotel("Hotel El Cielo", "$150000","Contacto: 32253167897",R.drawable.hotelcomplemento2, "Hotel hermoso y agradable"));
-        listaHoteles.add(new Moldehotel("Hotel Los Caminos", "$120000","Contacto: 3235386789",R.drawable.hotellista2, "Hotel sucio y desagradable"));
-        listaHoteles.add(new Moldehotel("Hotel Avenida", "$1380000","Contacto: 396423467897",R.drawable.hotellista3, "Hotel ingreible con vistas inimaginables"));
-        listaHoteles.add(new Moldehotel("Hotel El Descanso", "$200000","Contacto: 35267897787",R.drawable.hotellista4, "Hotel con fallas de logistica y sofocante"));
-        listaHoteles.add(new Moldehotel("Hotel Manantial", "$180000","Contacto: 31178564321",R.drawable.hotellista5, "Hotel que cumple de buena manara las expectativas de los clientes"));
+        listaHoteles.add(new Moldehotel("Hotel El Cielo", "$150000","Contacto: 32253167897",R.drawable.hotelcomplemento2,R.drawable.hotellista2, "Hotel hermoso y agradable","Calificacion = 5/5"));
+        listaHoteles.add(new Moldehotel("Hotel Los Caminos", "$120000","Contacto: 3235386789",R.drawable.hotellista2,R.drawable.compl1 ,"Hotel sucio y desagradable","Calificacion = 3/5"));
+        listaHoteles.add(new Moldehotel("Hotel Avenida", "$1380000","Contacto: 396423467897",R.drawable.hotellista3,R.drawable.compl3 ,"Hotel ingreible con vistas inimaginables","Calificacion = 4.5/5"));
+        listaHoteles.add(new Moldehotel("Hotel El Descanso", "$200000","Contacto: 35267897787",R.drawable.hotellista4,R.drawable.compl4 ,"Hotel con fallas de logistica y sofocante","Calificacion = 5/5"));
+        listaHoteles.add(new Moldehotel("Hotel Manantial", "$180000","Contacto: 31178564321",R.drawable.hotellista5,R.drawable.compl1 ,"Hotel que cumple de buena manara las expectativas de los clientes","Calificacion = 2/5"));
     }
 }
