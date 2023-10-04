@@ -45,6 +45,10 @@ public class ListaHoteles extends AppCompatActivity {
                                 String descripcionHotel = document.getString("precio");
                                 String fotoHotel = document.getString("foto");
                                 Toast.makeText(ListaHoteles.this, nombreHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListaHoteles.this, precioHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListaHoteles.this, telefonoHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListaHoteles.this, descripcionHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListaHoteles.this, fotoHotel, Toast.LENGTH_SHORT).show();
 
                             }
                         } else {

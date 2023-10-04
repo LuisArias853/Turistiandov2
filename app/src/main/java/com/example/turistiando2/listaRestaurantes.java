@@ -46,6 +46,10 @@ public class listaRestaurantes extends AppCompatActivity {
                                 String platoRestaurante = document.getString("plato");
                                 String fotoRestaurante = document.getString("foto");
                                 Toast.makeText(listaRestaurantes.this, nombreRestaurante, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaRestaurantes.this, precioRestaurante, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaRestaurantes.this, telefonoRestaurante, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaRestaurantes.this, platoRestaurante, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaRestaurantes.this, fotoRestaurante, Toast.LENGTH_SHORT).show();
 
                             }
                         } else {

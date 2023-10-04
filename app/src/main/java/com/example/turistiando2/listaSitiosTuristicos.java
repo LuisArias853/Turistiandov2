@@ -46,6 +46,11 @@ public class listaSitiosTuristicos extends AppCompatActivity {
                                 String contactoSitio = document.getString("contacto");
                                 String fotoSitio = document.getString("foto");
                                 Toast.makeText(listaSitiosTuristicos.this, nombreSitio, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaSitiosTuristicos.this, precioSitio, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaSitiosTuristicos.this, telefonoSitio, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaSitiosTuristicos.this, descripcionSitio, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaSitiosTuristicos.this, contactoSitio, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaSitiosTuristicos.this, fotoSitio, Toast.LENGTH_SHORT).show();
 
                             }
                         } else {
